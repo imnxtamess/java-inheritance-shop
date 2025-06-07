@@ -14,7 +14,7 @@ public class Prodotto {
   // ; constructor
   public Prodotto(String nome, String marca, BigDecimal prezzo, float iva) {
     Random nun = new Random();
-    this.codice = nun.nextInt();
+    this.codice = nun.nextInt(10000);
     this.nome = nome;
     this.marca = marca;
     this.prezzo = prezzo;
