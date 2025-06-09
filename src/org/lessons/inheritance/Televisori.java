@@ -22,7 +22,7 @@ public class Televisori extends Prodotto {
     return dimensioni;
   }
 
-  public boolean getBoolean() {
+  public boolean getIsSmart() {
     return isSmart;
   }
 
